@@ -76,8 +76,10 @@ li {
     height: 100vh;
   }
 }
-#main-banner nav {
-  display: none;
+@media (max-width: 425px) {
+  #main-banner nav {
+    display: none;
+  }
 }
 #main-banner .nav-container {
   display: flex;
